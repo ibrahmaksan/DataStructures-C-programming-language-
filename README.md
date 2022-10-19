@@ -1,2 +1,2 @@
 # DataStructures-C-programming-language-
-This repo stores my projects on data structures
+This repo stores my works about data structures course.
