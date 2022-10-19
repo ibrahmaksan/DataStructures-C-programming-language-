@@ -38,7 +38,7 @@ void oku(dugum* root,int deger){
         while(j<deger){
 
             printf("%d . eleman : %d\n",i,root->x);
-            root = root->next; // root un adres pass by reference oldugu halde neden degismedi ??
+            root = root->next; 
             j++;
             i++;
         }
@@ -74,7 +74,6 @@ int main(){
         olustur(kok,5);
         oku(kok,5);
         printf("\n%u",kok);
-        // adresler neden aynı kaldı onu bir soralım Volkan Hocaya.
 
     return 0;
 }
